@@ -1,6 +1,6 @@
 # React Testing Examples
 
-This repository contains some examples about using the [React Testing Library](https://testing-library.com/)
+This repository contains some examples about using the [Testing Library](https://testing-library.com/)
 to test React components and hooks.
 
 ## The Example App
