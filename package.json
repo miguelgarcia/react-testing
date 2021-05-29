@@ -15,6 +15,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "react-scripts test --watchAll=false --coverage --verbose",
+    "test:int": "react-scripts test --testPathPattern=\"int.test.js\" --verbose",
+    "test:coverage:int": "react-scripts test --watchAll=false --coverage --testPathPattern=\"int.test.js\" --verbose",
+    "test:unit": "react-scripts test --testPathPattern=\"unit.test.js\" --verbose",
+    "test:coverage:unit": "react-scripts test --watchAll=false --coverage --testPathPattern=\"unit.test.js\" --verbose",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +39,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^5.1.1",
+    "fetch-mock": "^9.11.0",
+    "node-fetch": "^2.6.1"
   }
 }

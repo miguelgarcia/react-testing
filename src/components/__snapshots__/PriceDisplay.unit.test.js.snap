@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceDisplay PriceDisplay regression test 1`] = `
+<DocumentFragment>
+  <div>
+    Current price of ETH is 20.5
+  </div>
+</DocumentFragment>
+`;
